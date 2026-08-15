@@ -24,6 +24,7 @@ env/
 save/                      # 玩家存档（运行生成）
 editor_settings.json       # 本地项目设置（标题/图标/默认音乐）
 editor_layers.json         # 编辑器图层显示状态
+music/                     # 背景音乐（个人素材，体积大，不入库；缺失时游戏静默无音乐）
 
 # ---------- PyInstaller 打包产物 ----------
 _build/
