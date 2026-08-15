@@ -1,0 +1,342 @@
+{
+  "name": "room004",
+  "width": 800,
+  "height": 608,
+  "bg_color": [
+    40,
+    60,
+    90
+  ],
+  "bg_image": null,
+  "bg_mode": "stretch",
+  "bg_zoom": 1.0,
+  "bg_offset": [
+    0,
+    0
+  ],
+  "tiles": [
+    {
+      "tx": 0,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 0,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 1,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 1,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 2,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 2,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 3,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 3,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 4,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 4,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 5,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 5,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 6,
+      "ty": 9,
+      "type": "block_8"
+    },
+    {
+      "tx": 6,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 6,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 7,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 7,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 8,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 8,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 9,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 9,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 10,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 10,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 11,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 11,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 12,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 12,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 13,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 13,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 14,
+      "ty": 15,
+      "type": "block_1"
+    },
+    {
+      "tx": 14,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 14,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 15,
+      "ty": 15,
+      "type": "block_1"
+    },
+    {
+      "tx": 15,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 15,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 16,
+      "ty": 15,
+      "type": "block_1"
+    },
+    {
+      "tx": 16,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 16,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 17,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 17,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 18,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 18,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 19,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 19,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 20,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 20,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 21,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 21,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 22,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 22,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 23,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 23,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 24,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 24,
+      "ty": 18,
+      "type": "block_0"
+    }
+  ],
+  "spikes": [
+    {
+      "tx": 12,
+      "ty": 16,
+      "dir": "up"
+    }
+  ],
+  "vines": [],
+  "water": [
+    {
+      "tx": 19,
+      "ty": 16,
+      "type": "first"
+    },
+    {
+      "tx": 20,
+      "ty": 16,
+      "type": "first"
+    }
+  ],
+  "mini_spikes": [],
+  "platforms": [],
+  "start": {
+    "x": 74.0,
+    "y": 523.0
+  },
+  "checkpoints": [
+    {
+      "tx": 6,
+      "ty": 17
+    }
+  ],
+  "exits": [
+    {
+      "tx": 24,
+      "ty": 16,
+      "target": "room001"
+    }
+  ],
+  "end": null,
+  "plus_jumps": [
+    {
+      "tx": 21,
+      "ty": 15
+    }
+  ],
+  "stars": [
+    {
+      "tx": 9,
+      "ty": 16,
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "name": "mini_spike_test",
+  "width": 800,
+  "height": 608,
+  "bg_color": [
+    255,
+    200,
+    200
+  ],
+  "bg_image": "R-C.jpg",
+  "bg_mode": "zoom",
+  "bg_zoom": 3.44,
+  "bg_offset": [
+    275,
+    -438
+  ],
+  "bgm": null,
+  "tiles": [
+    {
+      "tx": 0,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 0,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 1,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 2,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 3,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 4,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 5,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 6,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 7,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 8,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 9,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 10,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 11,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 12,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 13,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 14,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 15,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 16,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 17,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 18,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 19,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 20,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 21,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 22,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 23,
+      "ty": 18,
+      "type": "block_0"
+    },
+    {
+      "tx": 24,
+      "ty": 17,
+      "type": "block_0"
+    },
+    {
+      "tx": 24,
+      "ty": 18,
+      "type": "block_0"
+    }
+  ],
+  "spikes": [],
+  "vines": [],
+  "water": [],
+  "mini_spikes": [
+    {
+      "tx": 2,
+      "ty": 17,
+      "dir": "up",
+      "quad": 0
+    },
+    {
+      "tx": 3,
+      "ty": 17,
+      "dir": "down",
+      "quad": 0
+    },
+    {
+      "tx": 4,
+      "ty": 17,
+      "dir": "left",
+      "quad": 0
+    },
+    {
+      "tx": 5,
+      "ty": 17,
+      "dir": "right",
+      "quad": 0
+    },
+    {
+      "tx": 6,
+      "ty": 17,
+      "dir": "up",
+      "quad": 1
+    },
+    {
+      "tx": 7,
+      "ty": 17,
+      "dir": "down",
+      "quad": 1
+    },
+    {
+      "tx": 8,
+      "ty": 17,
+      "dir": "left",
+      "quad": 1
+    },
+    {
+      "tx": 9,
+      "ty": 17,
+      "dir": "right",
+      "quad": 1
+    },
+    {
+      "tx": 10,
+      "ty": 17,
+      "dir": "up",
+      "quad": 2
+    },
+    {
+      "tx": 11,
+      "ty": 17,
+      "dir": "down",
+      "quad": 2
+    },
+    {
+      "tx": 12,
+      "ty": 17,
+      "dir": "left",
+      "quad": 2
+    },
+    {
+      "tx": 13,
+      "ty": 17,
+      "dir": "right",
+      "quad": 2
+    },
+    {
+      "tx": 14,
+      "ty": 17,
+      "dir": "up",
+      "quad": 3
+    },
+    {
+      "tx": 15,
+      "ty": 17,
+      "dir": "down",
+      "quad": 3
+    },
+    {
+      "tx": 16,
+      "ty": 17,
+      "dir": "left",
+      "quad": 3
+    },
+    {
+      "tx": 17,
+      "ty": 17,
+      "dir": "right",
+      "quad": 3
+    }
+  ],
+  "platforms": [
+    {
+      "px": 384.0,
+      "py": 400.0
+    }
+  ],
+  "start": {
+    "x": 400.0,
+    "y": 350.0
+  },
+  "checkpoints": [],
+  "exits": [
+    {
+      "tx": 24,
+      "ty": 16,
+      "target": "room001"
+    }
+  ],
+  "end": null,
+  "plus_jumps": [],
+  "stars": []
+}

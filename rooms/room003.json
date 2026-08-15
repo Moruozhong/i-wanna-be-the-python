@@ -1,0 +1,97 @@
+{
+  "name": "room003",
+  "width": 800,
+  "height": 608,
+  "bg_color": [30, 34, 60],
+  "tiles": [
+    {"tx": 0, "ty": 17, "type": "block_0"},
+    {"tx": 1, "ty": 17, "type": "block_0"},
+    {"tx": 2, "ty": 17, "type": "block_0"},
+    {"tx": 3, "ty": 17, "type": "block_0"},
+    {"tx": 4, "ty": 17, "type": "block_0"},
+    {"tx": 5, "ty": 17, "type": "block_0"},
+    {"tx": 6, "ty": 17, "type": "block_0"},
+    {"tx": 7, "ty": 17, "type": "block_0"},
+    {"tx": 8, "ty": 17, "type": "block_0"},
+    {"tx": 9, "ty": 17, "type": "block_0"},
+    {"tx": 10, "ty": 17, "type": "block_0"},
+    {"tx": 11, "ty": 17, "type": "block_0"},
+    {"tx": 12, "ty": 17, "type": "block_0"},
+    {"tx": 13, "ty": 17, "type": "block_0"},
+    {"tx": 14, "ty": 17, "type": "block_0"},
+    {"tx": 15, "ty": 17, "type": "block_0"},
+    {"tx": 16, "ty": 17, "type": "block_0"},
+    {"tx": 17, "ty": 17, "type": "block_0"},
+    {"tx": 18, "ty": 17, "type": "block_0"},
+    {"tx": 19, "ty": 17, "type": "block_0"},
+    {"tx": 20, "ty": 17, "type": "block_0"},
+    {"tx": 21, "ty": 17, "type": "block_0"},
+    {"tx": 22, "ty": 17, "type": "block_0"},
+    {"tx": 23, "ty": 17, "type": "block_0"},
+    {"tx": 24, "ty": 17, "type": "block_0"},
+    {"tx": 0, "ty": 18, "type": "block_0"},
+    {"tx": 1, "ty": 18, "type": "block_0"},
+    {"tx": 2, "ty": 18, "type": "block_0"},
+    {"tx": 3, "ty": 18, "type": "block_0"},
+    {"tx": 4, "ty": 18, "type": "block_0"},
+    {"tx": 5, "ty": 18, "type": "block_0"},
+    {"tx": 6, "ty": 18, "type": "block_0"},
+    {"tx": 7, "ty": 18, "type": "block_0"},
+    {"tx": 8, "ty": 18, "type": "block_0"},
+    {"tx": 9, "ty": 18, "type": "block_0"},
+    {"tx": 10, "ty": 18, "type": "block_0"},
+    {"tx": 11, "ty": 18, "type": "block_0"},
+    {"tx": 12, "ty": 18, "type": "block_0"},
+    {"tx": 13, "ty": 18, "type": "block_0"},
+    {"tx": 14, "ty": 18, "type": "block_0"},
+    {"tx": 15, "ty": 18, "type": "block_0"},
+    {"tx": 16, "ty": 18, "type": "block_0"},
+    {"tx": 17, "ty": 18, "type": "block_0"},
+    {"tx": 18, "ty": 18, "type": "block_0"},
+    {"tx": 19, "ty": 18, "type": "block_0"},
+    {"tx": 20, "ty": 18, "type": "block_0"},
+    {"tx": 21, "ty": 18, "type": "block_0"},
+    {"tx": 22, "ty": 18, "type": "block_0"},
+    {"tx": 23, "ty": 18, "type": "block_0"},
+    {"tx": 24, "ty": 18, "type": "block_0"}
+  ],
+  "spikes": [],
+  "mini_spikes": [],
+  "vines": [
+    {"tx": 13, "ty": 12, "side": "right"},
+    {"tx": 13, "ty": 13, "side": "right"},
+    {"tx": 13, "ty": 14, "side": "right"}
+  ],
+  "platforms": [
+    {"px": 192, "py": 480},
+    {"px": 288, "py": 448},
+    {"px": 384, "py": 416},
+    {"px": 448, "py": 384},
+    {"px": 512, "py": 384},
+    {"px": 576, "py": 384},
+    {"px": 640, "py": 384}
+  ],
+  "water": [
+    {"tx": 15, "ty": 11, "type": "first"},
+    {"tx": 16, "ty": 11, "type": "first"},
+    {"tx": 17, "ty": 11, "type": "second"},
+    {"tx": 18, "ty": 11, "type": "second"},
+    {"tx": 19, "ty": 11, "type": "zero"},
+    {"tx": 20, "ty": 11, "type": "zero"}
+  ],
+  "start": {"x": 96, "y": 523},
+  "checkpoints": [
+    {"tx": 4, "ty": 17}
+  ],
+  "exits": [
+    {"tx": 0, "ty": 16, "target": "room001"},
+    {"tx": 24, "ty": 16, "target": "room002"}
+  ],
+  "end": null,
+  "plus_jumps": [
+    {"tx": 21, "ty": 16}
+  ],
+  "stars": [
+    {"tx": 8, "ty": 16, "level": 3}
+  ]
+}
