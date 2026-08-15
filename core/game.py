@@ -1120,8 +1120,7 @@ class GameScene:
         但垂直移动对固体做碰撞，下滑/跳出不会穿墙）。
 
         （tengwan_right 为例，tengwan_left 左右互换）：
-        - 上方向键         = 无反应（保持不动；shift+上 不会让它向上）
-        - 下方向键         = 自然下滑（不冻结）
+        - 上/下方向键     = 自然下滑（上不再"保持不动"）
         - Shift + 靠近方向 = 不再上爬，自然下滑（shift+方向 不会让它向上）
         - Shift + 反方向   = 跳出藤蔓（向右上方/左上方出藤蔓，带向上初速度）
         - 按住反方向       = 普通脱离（向右/左，带小推开速度）
@@ -1135,18 +1134,15 @@ class GameScene:
             return
         left = inp.held("left")
         right = inp.held("right")
-        up = inp.held("up")
         shift = inp.held("jump")
         toward = -1 if facing == "right" else 1  # 靠近藤蔓的方向
         away = -toward
         toward_held = (toward == -1 and left) or (toward == 1 and right)
         away_held = (away == -1 and left) or (away == 1 and right)
 
-        # 上方向键：无反应（保持不动）；下方向键：自然下滑（不冻结）。
+        # 上/下方向键：都按"无输入"处理（自然下滑）——上不再保持不动。
         # Shift+靠近方向 不再上爬（shift+方向不会让它向上），落在"靠近=下滑"分支。
-        if up:
-            dy = 0.0
-        elif shift and away_held:
+        if shift and away_held:
             # Shift + 反方向 = 跳出藤蔓（向右上方 / 左上方出藤蔓）
             self.sounds.play("vine_leap")
             # 跳出是免费动作：不消耗跳跃次数，也不自动触发一次跳。

@@ -492,7 +492,7 @@ def main():
         f"应停在固体顶面(16*T-21={16*T-config.KID_HEIGHT})，实际 y={kid.y}"
     print("PASS 26 藤蔓上下滑撞固体不穿墙（停在固体顶面）")
 
-    # 27. 上方向键是死键：shift+上 无反应（普通模式不跳、藤蔓上保持不动）；shift 单独仍可跳
+    # 27. 普通模式 shift+上 屏蔽跳跃（死键）；藤蔓上 shift+上 自然下滑（不再保持不动）；shift 单独仍可跳
     scene.vines.clear()
     scene.vines[(11, 15)] = "right"
     scene.solids[:] = []
@@ -516,7 +516,7 @@ def main():
     set_input(inp, ("jump",))              # shift 单独（先松开再按）仍应起跳
     kid.update(inp, scene.solids + scene.vine_barriers)
     assert kid.y < y0, f"shift 单独应起跳，y {y0}->{kid.y}"
-    # 藤蔓上 shift+上：保持不动（不滑落）
+    # 藤蔓上 shift+上：不再保持不动，改为自然下滑（y 增加）
     kid.reset(12 * T + 8.0, 15 * T - config.KID_HEIGHT)
     kid.mode = "normal"
     scene._vine_cell = None
@@ -531,8 +531,8 @@ def main():
     for _ in range(4):
         set_input(inp, ("jump", "up"))
         scene._vine_update(inp)
-    assert kid.y == y0, f"藤蔓上 shift+上 应保持不动，y {y0}->{kid.y}"
-    print("PASS 27 上方向键是死键：shift+上 无反应（普通不跳 / 藤蔓不动）")
+    assert kid.y > y0, f"藤蔓上 shift+上 应自然下滑（不再保持不动），y {y0}->{kid.y}"
+    print("PASS 27 普通模式 shift+上 屏蔽跳跃；藤蔓上 shift+上 自然下滑")
 
     # 28. 藤蔓攀爬面竖线实体碰撞：kid 撞上右缘竖线停在攀爬面吸附，穿不过藤蔓（左缘镜像）
     scene.vines.clear()

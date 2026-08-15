@@ -41,7 +41,7 @@ class App:
         # 若 KEYMAP 缺失 up/down（旧进程/旧字节码），直接报错提示，而不是静默保留旧行为。
         assert "up" in config.KEYMAP and "down" in config.KEYMAP, \
             "config.KEYMAP 缺少死键 up/down——正在运行旧代码，请完全关闭游戏后重新运行 python main.py"
-        print("[input] 死键已启用：普通模式 shift+上/下 不跳跃，藤蔓上 shift+上/下 保持不动")
+        print("[input] 死键已启用：普通模式 shift+上/下 不跳跃；藤蔓上按上自然下滑")
 
         self.debug_panel = None   # F2 隐藏参数小窗口（懒创建）
 
