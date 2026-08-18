@@ -151,7 +151,7 @@ BULLET_FRAMES = 2             # 动画帧数（bullet_0/1.png）
 BULLET_FRAME_INTERVAL = 4     # 每 N 帧切换一帧
 BULLET_MAX = 8                # 屏幕内子弹数量上限
 BULLET_MASK_THRESHOLD = 127   # 子弹碰撞遮罩：由 bullet_*.png 的 alpha 逐像素生成（像素级精确）
-BULLET_CHECKPOINT_INFLATE = 32  # 子弹触发 Checkpoint 时触发区垂直扩展（子弹高度平飞也能碰到地板存档）
+BULLET_CHECKPOINT_INFLATE = 0  # 子弹触发 Checkpoint 时触发区垂直扩展（子弹高度平飞也能碰到地板存档）
 
 # ============================================================
 # 水（Water）——三种类型统一减速下落
